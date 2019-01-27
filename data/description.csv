@@ -1,5 +1,8 @@
 label,sublabel,description,styles,bgcolor
-燃やさないごみ,,,img/moyasanai02.svg,#733b96
-資源,,,img/shigen02.svg,#77ae1f
-燃やすごみ,,,img/moyasu02.svg,#ea3b13
-びん,,,img/bin02.svg,#2dc7aa
+燃やせる,,,img/moyasu02.svg,#ea3b13
+燃やせない,,,img/moyasanai02.svg,#733b96
+かん,,,img/shigen02.svg,#733b96
+古紙・古布,,,img/shigen02.svg,#733b96
+ペットボトル,,,,#77ae1f
+びん・スプレー容器,,,img/shigen02.svg,#77ae1f
+粗大ごみ,（予約制です）,電話またはホームページから予約をしてください。,,
