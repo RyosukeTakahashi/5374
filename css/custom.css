@@ -13,6 +13,14 @@ body {
 /*#accordion-group2{background-color:  #ea3b13;}*//* 資源 */
 /*#accordion-group3{background-color:  #2dc7aa;}*//* びん */
 
+#notify-homepage {
+    margin: 15px;
+}
+
+#message {
+    text-align: center;
+}
+
 #accordion a, #accordion a:hover {
     color: white;
     text-decoration: none;
@@ -30,6 +38,7 @@ a.accordion-toggle-top {
     text-align: left;
     font-size: 25px;
     margin: 15px 0 15px 15px;
+    color: blue;
 
 }
 
