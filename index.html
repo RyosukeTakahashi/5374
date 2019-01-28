@@ -1,94 +1,152 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta property="og:title" content="5374.jpつくば版" />
     <meta property="og:type" content="product" />
     <meta property="og:url" content="http://kanazawa.5374.jp/" />
-    <meta property="og:description" content="5374.jp-つくば市版。つくば市でいつ、どのゴミが回収されるのか、簡単に知れます！" />
+    <meta
+      property="og:description"
+      content="5374.jp-つくば版。つくば市でいつ、どのゴミが回収されるのか、簡単に知れます！"
+    />
     <meta property="og:image" content="http://kanazawa.5374.jp/img/ogp.png" />
     <meta name="Keywords" content="つくば市,5374,ごみ,ゴミ収集日" />
-    <meta name="description" content="つくばの地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。分別でつくばをきれいな街に。" />
-    <title>5374(ｺﾞﾐﾅｼ).jp-つくば市版</title>
+    <meta
+      name="description"
+      content="つくばで、いつ、どのゴミが回収されるのか、簡単に知る事ができます。自分たちのでつくばをきれいに。"
+    />
+    <title>5374(ｺﾞﾐﾅｼ).jp-つくば版</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
-    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta
+      name="viewport"
+      content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="img/apple-touch-icon-precomposed.png"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/custom.css" rel="stylesheet" media="screen" />
   </head>
   <body>
-  <style id="accordion-style" type="text/css"></style>
-  <div id="accordion"></div>
-  <select class="form-control" id="select_area"></select>
-  <div id="message">
+    <style id="accordion-style" type="text/css"></style>
+    <div id="accordion"></div>
+    <select class="form-control" id="select_area"></select>
+    <div id="message">
       <h2>自分たちのつくばをきれいに</h2>
-  自分たちが住むつくばを、少しでもきれいな街にしたい。<br>
-  そんな想いで、有志の筑波大生がゴミ出しに注目しました。<br>
-  皆様のゴミ出しが、少し楽になることを願っております。<br><br>
-  実際のごみの捨て方は、<br><a target="_blank" href="http://www.city.tsukuba.lg.jp/kurashi/recycle/gomi/index.html">つくば市のホームページ</a>をご覧ください。<br><br>
-    お住まいの地区がどこに該当するかは、<br>
-    <a href="http://www.city.tsukuba.lg.jp/kurashi/recycle/1000820.html">こちら</a>をご覧ください。
+      自分たちが住むつくばを、少しでもきれいな街にしたい。<br />
+      そんな想いで、有志の筑波大生がゴミ出しに注目しました。<br />
+      皆様のゴミ出しが、少し楽になることを願っております。<br /><br />
+      実際のごみの捨て方は、<br /><a
+        target="_blank"
+        href="http://www.city.tsukuba.lg.jp/kurashi/recycle/gomi/index.html"
+        >つくば市のホームページ</a
+      >をご覧ください。<br /><br />
+      お住まいの地区がどこに該当するかは、<br />
+      <a href="http://www.city.tsukuba.lg.jp/kurashi/recycle/1000820.html"
+        >こちら</a
+      >をご覧ください。
     </div>
-  
-  <div class="accordion" id="accordion3">
-    <div class="accordion-group-top">
-      <div class="accordion-heading">
-        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">5374.jp-つくば版について</a>
-      </div>
-      <div id="collapse3_0" class="accordion-body collapse">
-        <div class="accordion-inner">
-          <div id="help">
-            <h2>目的</h2>
-「いつ、どのゴミが収集されているのか？」
-例えばお引っ越しをされた場合や、新しくつくば市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
-            <h2>使い方</h2>
-            <h3>色でゴミのジャンルを表示</h3>
-            <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
-            <h3>捨てる事が可能なゴミ</h3>
-            <p>ゴミのジャンルをタップすると、捨てることが可能なゴミの一覧を見ることができます</p>
-            <h3>設定</h3>
-            <p>お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。</p>
-            <div id="caption">
-              <h4>提供されるゴミ情報について</h4>
-              <p>つくば市が公開している<a target="_blank" href="http://www.city.tsukuba.lg.jp/kurashi/recycle/1000820.html">ごみ収集カレンダー</a>に基づき、アプリに2019年1月に実装しました。</p>
-              <h4>ライセンスについて</h4>
-              <p>本アプリは、<a href="http://www.codeforkanazawa.org/" style=" color: #FF0000;text-decoration: underline;">Code for Kanazawa</a>
-                が著作権を持っているコードをMPLライセンスに基づき、つくば市民である村上僚がつくば市向けにデータやコードを一部改変しております。</p>
-            </div>
-            <div id="cfk">
-              <h3>このローカライズを作った村上僚について</h3>
-              <p>本アプリは、つくばの街に、6年間お世話になったささいなお礼として、2019年に筑波大生である村上僚が、5374.jpのローカライズを勝手ながら作成しました。<br>
-                筑波大学の院にてサービス工学を学び、あと1ヶ月で修士号を取得予定。<br/>
-                2019年4月からは、つくばで設立した会社の代表取締役を務めながら、渋谷のIT企業でエンジニアとして勤務。<br>
-                ご連絡は<a href="https://www.facebook.com/ryo.murakami.3998">Facebook</a>にて。<br>
+
+    <div class="accordion" id="accordion3">
+      <div class="accordion-group-top">
+        <div class="accordion-heading">
+          <a
+            class="accordion-toggle-top"
+            data-toggle="collapse"
+            data-parent="#accordion3"
+            href="#collapse3_0"
+            >5374.jp-つくば版について</a
+          >
+        </div>
+        <div id="collapse3_0" class="accordion-body collapse">
+          <div class="accordion-inner">
+            <div id="help">
+              <h2>目的</h2>
+              「いつ、どのゴミが収集されているのか？」
+              例えばお引っ越しをされた場合や、新しくつくば市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
+              <h2>使い方</h2>
+              <h3>色でゴミのジャンルを表示</h3>
+              <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
+              <h3>捨てる事が可能なゴミ</h3>
+              <p>
+                ゴミのジャンルをタップすると、捨てることが可能なゴミの一覧を見ることができます
               </p>
+              <h3>設定</h3>
+              <p>
+                お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。
+              </p>
+              <div id="caption">
+                <h4>提供されるゴミ情報について</h4>
+                <p>
+                  つくば市が公開している<a
+                    target="_blank"
+                    href="http://www.city.tsukuba.lg.jp/kurashi/recycle/1000820.html"
+                    >ごみ収集カレンダー</a
+                  >に基づき、アプリに2019年1月に実装しました。
+                </p>
+                <h4>ライセンスについて</h4>
+                <p>
+                  本アプリは、<a
+                    href="http://www.codeforkanazawa.org/"
+                    style=" color: #FF0000;text-decoration: underline;"
+                    >Code for Kanazawa</a
+                  >
+                  が著作権を持っているコードをMPLライセンスに基づき、つくば市民である村上僚がつくば市向けにデータやコードを一部改変しております。
+                </p>
+              </div>
+              <div id="cfk">
+                <h3>このローカライズを作った村上僚について</h3>
+                <p>
+                  本アプリは、つくばの街に、6年間お世話になったささいなお礼として、2019年に筑波大生である村上僚が、5374.jpのローカライズを勝手ながら作成しました。<br />
+                  筑波大学の院にてサービス工学を学び、あと1ヶ月で修士号を取得予定。<br />
+                  2019年4月からは、つくばで設立した会社の代表取締役を務めながら、渋谷のIT企業でエンジニアとして勤務。<br />
+                  ご連絡は<a href="https://www.facebook.com/ryo.murakami.3998"
+                    >Facebook</a
+                  >にて。<br />
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- JavaScript plugins (requires jQuery) -->
-  <script src="js/jquery-1.10.2.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
   <script src="js/respond.js"></script>
-  -->  
-  <!-- ブックマークお勧めポップアップ追加-->
-  <script src="js/bookmark-bubble/bookmark_bubble.min.js"></script>
-  <script src="js/bookmark-bubble/example/example.min.js"></script>
-  <script src="js/setting.js"></script>
-  <script src="js/script.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-43926409-1', '5374.jp');
-  ga('send', 'pageview');
-  </script>
+  -->
+    <!-- ブックマークお勧めポップアップ追加-->
+    <script src="js/bookmark-bubble/bookmark_bubble.min.js"></script>
+    <script src="js/bookmark-bubble/example/example.min.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-43926409-1", "5374.jp");
+      ga("send", "pageview");
+    </script>
   </body>
 </html>
