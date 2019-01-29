@@ -564,7 +564,7 @@ google.bookmarkbubble.Bubble.prototype.build_ = function() {
         '矢印をタップして <b>\'ホーム画面に追加\'</b>';
   } else {
     bubbleInner.innerHTML = 'このwebアプリは、インストールをお勧めします ' +
-        'tap <b style="font-size:15px">+</b> をタップして ' +
+        '<b style="font-size:15px">+</b> をタップして ' +
         '<b>\'ホーム画面に追加\'</b>';
   }
 
